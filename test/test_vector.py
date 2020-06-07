@@ -16,11 +16,11 @@ class TestStringMethods(unittest.TestCase):
     def test_substract(self):
         v1 = [2, 3]
         v2 = [3, 4]
-        self.assertEqual([-1, -1], Vector.subs(v1, v2))
+        self.assertEqual([-1, -1], Vector.subtract(v1, v2))
 
         v1 = [5, 12, 32, 12]
         v2 = [34, 3, 4, 2]
-        self.assertEqual([-29, 9, 28, 10], Vector.subs(v1, v2))
+        self.assertEqual([-29, 9, 28, 10], Vector.subtract(v1, v2))
 
     def test_distance(self):
         v1 = [7, 4, 3]

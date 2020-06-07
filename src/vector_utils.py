@@ -11,9 +11,12 @@ class Vector:
         return [i + j for i, j in zip(*vecs)]
 
     @staticmethod
-    def subs(*vecs):
+    def subtract(*vecs):
         return [i - j for i, j in zip(*vecs)]
 
     @staticmethod
     def mean(*vecs):
         return [float(coord) / len(vecs) for coord in reduce(Vector.add, vecs)]
+
+
+
