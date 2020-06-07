@@ -2,6 +2,10 @@ import requests
 import json
 from vector_utils import Vector as vec
 
+from mpl_toolkits import mplot3d
+import numpy as np 
+import matplotlib.pyplot as plt
+
 def get_content(url):
     response = requests.get(url)
     content = response.content.decode()
@@ -32,4 +36,8 @@ if __name__ == '__main__':
     data_set = get_json(data_set_url)
     colors = parse_colors(data_set)
 
+    fig = plt.figure()
+    ax = plt.axes(projection='3d')
+
+    plt.show(fig)
 
