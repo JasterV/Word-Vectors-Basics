@@ -46,7 +46,7 @@ def plot_closest(ax, colors, to):
     distances = closest(colors, to, n=len(colors)//2)
     max_distance = max(distances, key=lambda x: x[1])[1]
     sizes = np.array(
-        list(map(lambda x: (math.log2(max_distance) - math.log2(x[1] + 1))*100, distances)))
+        list(map(lambda x: (math.log2(max_distance + 1) - math.log2(x[1] + 1))*100, distances)))
     rgb_values = list(map(lambda x: x[0], distances))
     plot_data(ax, rgb_values, np.array(rgb_values), sizes)
 
