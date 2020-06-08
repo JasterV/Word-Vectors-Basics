@@ -2,7 +2,7 @@ import unittest
 from src.vector_utils import Vector
 
 
-class TestStringMethods(unittest.TestCase):
+class TestVector(unittest.TestCase):
 
     def test_add(self):
         v1 = [2, 3]

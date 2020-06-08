@@ -1,5 +1,6 @@
 import math
 from functools import reduce
+import operator
 
 class Vector:
     @staticmethod
@@ -8,15 +9,15 @@ class Vector:
 
     @staticmethod
     def add(*vecs):
-        return [i + j for i, j in zip(*vecs)]
+        return [sum(t) for t in zip(*vecs)]
 
     @staticmethod
     def subtract(*vecs):
-        return [i - j for i, j in zip(*vecs)]
+        return [reduce(operator.__sub__, t) for t in zip(*vecs)]
 
     @staticmethod
-    def mean(*vecs):
-        return [float(coord) / len(vecs) for coord in reduce(Vector.add, vecs)]
+    def mean(*vectors):
+        return [float(coord) / len(vectors) for coord in reduce(Vector.add, vectors)]
 
 
 
