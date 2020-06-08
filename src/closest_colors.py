@@ -78,6 +78,7 @@ if __name__ == '__main__':
         color = colors[color]
     else:
         color = hex_to_rgb(color)
+        
     ax = init_projection()
     plot_closest(ax, colors, color)
     plt.show()
