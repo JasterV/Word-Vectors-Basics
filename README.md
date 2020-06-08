@@ -49,7 +49,6 @@ python -m unittest discover test/
 
 👤 **Víctor Martínez**
 
-* Website: github.com/JasterV
 * Github: [@JasterV](https://github.com/JasterV)
 * LinkedIn: [@Víctor Martínez](https://www.linkedin.com/in/v%C3%ADctor-mart%C3%ADnez-3b8304196/)
 
