@@ -28,6 +28,21 @@ Enter a color from the [colors list](https://xkcd.com/color/rgb/) or just enter 
 python -m unittest discover test/
 ```
 
+## ✨ Demo
+
+## Purple
+
+![Imgur](https://i.imgur.com/JwYGT6ml.gif)
+
+
+## Light Green
+![Imgur](https://i.imgur.com/Q0ExxbLl.gif)
+
+## Orange
+
+![Imgur](https://i.imgur.com/I8UGQyql.gif)
+
+
 ## Author
 
 👤 **Víctor Martínez**
