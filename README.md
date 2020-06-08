@@ -32,15 +32,17 @@ python -m unittest discover test/
 
 ## Purple
 
-![Imgur](https://i.imgur.com/JwYGT6ml.gif)
+![](gifs/purple.gif)
+
 
 
 ## Light Green
-![Imgur](https://i.imgur.com/Q0ExxbLl.gif)
+![](gifs/green.gif)
+
 
 ## Orange
 
-![Imgur](https://i.imgur.com/I8UGQyql.gif)
+![](gifs/orange.gif)
 
 
 ## Author
