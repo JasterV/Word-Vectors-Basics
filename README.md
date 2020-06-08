@@ -30,17 +30,17 @@ python -m unittest discover test/
 
 ## ✨ Demo
 
-## Purple
++ ## Purple
 
 ![](gifs/purple.gif)
 
 
 
-## Light Green
++ ## Light Green
 ![](gifs/green.gif)
 
 
-## Orange
++ ## Orange
 
 ![](gifs/orange.gif)
 
